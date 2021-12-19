@@ -18,7 +18,7 @@ This repo aims to be an overview of the errors that you can run into while using
 
 [Overview](#overview) •
 [Errors](#errors) •
-[Configuration](#configuration) •
+[Links](#links) •
 
 </div>
 
@@ -64,3 +64,6 @@ Explanation of some approaches to solve this
 
 
 
+## Links
+
+* [Speech Recognizer Documentation](https://developer.apple.com/documentation/speech)
