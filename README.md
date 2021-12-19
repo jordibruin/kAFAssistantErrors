@@ -1,12 +1,34 @@
+<!-- markdownlint-configure-file {
+  "MD013": {
+    "code_blocks": false,
+    "tables": false
+  },
+  "MD033": false,
+  "MD041": false
+} -->
+
+<div align="center">
+
+
+It remembers which directories you use most frequently, so you can "jump" to
+them in just a few keystrokes.<br />
+zoxide works on all major shells.
+
+[Overview](#getting-started) •
+[Errors](#errors) •
+[Configuration](#configuration) •
+[Integrations](#third-party-integrations)
+
+</div>
+
 # kAFAssistantErrors
 An overview of errors thrown by kAFAssistant and the Apple SpeechRecognizer 
 
 This repo aims to be an overview of the errors that you can run into while using the Speech framework on Apple devices. Since it uses internal frameworks (kAFAssistant) that are not documented I thought it would be nice to have an overview.
 
+SiriSpeechErrorDomain 
 
-# Errors
-
-SiriSpeechErrorDomain Code=201
+201 - 
 203 or 1107 = too much silence (so recognition gets aborted)
 203 - Retry / Error
 209 - The operation couldn’t be completed. (kAFAssistantErrorDomain error 209.)
@@ -22,7 +44,7 @@ SiriSpeechErrorDomain Code=201
 1110 - No Speech Detected
 
 
-Still trying to find out the format:
+# Errors
 
 ## 203 - Retry (or just "Error")
 
