@@ -18,11 +18,11 @@ This repo aims to be an overview of the errors that you can run into while using
 
 [Overview](#overview) •
 [Errors](#errors) •
-[Links](#links) •
+[Links](#links)
 
 </div>
 
-## Overview
+# Overview
 SiriSpeechErrorDomain 
 
 ### 1XX errors
@@ -37,7 +37,7 @@ SiriSpeechErrorDomain
 
 209 - The operation couldn’t be completed. (kAFAssistantErrorDomain error 209.)
 
-216 - The operation couldn’t be completed.
+[216](#216) -The operation couldn’t be completed.
 
 ### 3XX errors
 
@@ -58,9 +58,9 @@ SiriSpeechErrorDomain
 1110 - No Speech Detected
 
 
-## Errors
+# Errors
 
-# 203 - Retry (or just "Error")
+### 203 - Retry (or just "Error")
 
 Cause:
 Triggered after 60 seconds of no sound detected by the Speech Recognizer. It stops the recognition for me afterwards.
@@ -69,7 +69,8 @@ Solutions:
 Start a new recognitionTask after this error is thrown
 
 
-# 216 - The operation couldn’t be completed.
+### 216
+The operation couldn’t be completed.
 
 Cause:
 Explanation of why it happens
@@ -81,6 +82,6 @@ Explanation of some approaches to solve this
 
 
 
-## Links
+# Links
 
 * [Speech Recognizer Documentation](https://developer.apple.com/documentation/speech)
