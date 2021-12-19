@@ -63,9 +63,11 @@ SiriSpeechErrorDomain
 ### 203 - Retry (or just "Error")
 
 Cause:
+
 Triggered after 60 seconds of no sound detected by the Speech Recognizer. It stops the recognition for me afterwards.
 
 Solutions:
+
 Start a new recognitionTask after this error is thrown
 
 
@@ -73,9 +75,11 @@ Start a new recognitionTask after this error is thrown
 The operation couldn’t be completed.
 
 Cause:
+
 Explanation of why it happens
 
 Solutions:
+
 Explanation of some approaches to solve this
 
 
