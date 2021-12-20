@@ -67,6 +67,8 @@ EARErrorDomain
 
 # Errors
 
+This will be expanded over time with information about the errors as well as potential fixes.
+
 ### 203 - Retry (or just "Error")
 
 Cause:
