@@ -23,7 +23,14 @@ This repo aims to be an overview of the errors that you can run into while using
 </div>
 
 # Overview
+
+Domains
 SiriSpeechErrorDomain 
+EARErrorDomain
+
+### 0XX errors
+
+3 - Recognition was unsuccessful
 
 ### 1XX errors
 
